@@ -1,20 +1,22 @@
-## Memory Tracer
+## Memory Tracer :
 
 Un allocateur mémoire avec traçage intégré pour visualiser le flow mémoire de vos programmes C en temps réel.
 
-## L'idée
+## L'idée :
 
 **Voir l'histoire de votre mémoire, pas seulement son état final.**
 
-Memory Tracer fusionne vos logs applicatifs avec le traçage mémoire pour créer une timeline narrative de votre programme :
+Memory Tracer est un wrapper de `malloc` / `free` fusionne vos logs applicatifs avec le traçage mémoire pour créer une timeline narrative de votre programme :
 
 <img src="memory_tracer.png" alt="Aperçu Memory tracer" width="700">
 
-## Contexte
+## Contexte :
 
 Développé lors du projet **cub3D** de l'École 42, en travaillant depuis chez moi sur macOS sans accès à Valgrind, j'avais besoin de debugger un parser complexe et je voulais voir en temps réel si chaque phase nettoyait correctement ses ressources.
 
 **L'outil n'a de valeur que dans un contexte narratif** : il s'intègre à vos logs de debugging existants pour raconter l'histoire complète de votre mémoire au fil de l'exécution de votre programme.
+
+## Utilisté :
 
 ### ID unique par allocation
 Suivez le cycle de vie complet : `malloc id: 42` → `free id: 42`. Identifiez instantanément quelle allocation n'est jamais libérée.
