@@ -16,7 +16,7 @@ Développé lors du projet **cub3D** de l'École 42, en travaillant depuis chez 
 
 **L'outil n'a de valeur que dans un contexte narratif** : il s'intègre à vos logs de debugging existants pour raconter l'histoire complète de votre mémoire au fil de l'exécution de votre programme.
 
-## Utilisté :
+## Utilités :
 
 ### ID unique par allocation
 Suivez le cycle de vie complet : `malloc id: 42` → `free id: 42`. Identifiez instantanément quelle allocation n'est jamais libérée.
