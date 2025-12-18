@@ -8,7 +8,7 @@ Un allocateur mémoire avec traçage intégré pour visualiser le flow mémoire 
 
 Memory Tracer est un wrapper de `malloc` / `free` qui fusionne vos logs applicatifs avec le traçage mémoire pour créer une timeline narrative de votre programme :
 
-
+<img src="memory.png" alt="Aperçu Memory tracer" width="700">
 
 ## Contexte :
 
