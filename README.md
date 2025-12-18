@@ -12,11 +12,9 @@ Memory Tracer fusionne vos logs applicatifs avec le traçage mémoire pour crée
 
 ## Contexte
 
-Développé lors du projet **cub3D** à l'École 42, en travaillant depuis chez moi sur macOS sans accès à Valgrind. J'avais besoin de debugger un parser complexe avec plusieurs phases (parsing → validation → rendering) et je voulais voir en temps réel si chaque phase nettoyait correctement ses ressources.
+Développé lors du projet **cub3D** de l'École 42, en travaillant depuis chez moi sur macOS sans accès à Valgrind, j'avais besoin de debugger un parser complexe et je voulais voir en temps réel si chaque phase nettoyait correctement ses ressources.
 
 **L'outil n'a de valeur que dans un contexte narratif** : il s'intègre à vos logs de debugging existants pour raconter l'histoire complète de votre mémoire au fil de l'exécution de votre programme.
-
-## Pourquoi c'est utile
 
 ### ID unique par allocation
 Suivez le cycle de vie complet : `malloc id: 42` → `free id: 42`. Identifiez instantanément quelle allocation n'est jamais libérée.
