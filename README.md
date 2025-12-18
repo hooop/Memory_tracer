@@ -1,4 +1,4 @@
-# Memory Tracer
+## Memory Tracer
 
 Un allocateur mémoire avec traçage intégré pour visualiser le flow mémoire de vos programmes C en temps réel.
 
@@ -8,7 +8,7 @@ Un allocateur mémoire avec traçage intégré pour visualiser le flow mémoire 
 
 Memory Tracer fusionne vos logs applicatifs avec le traçage mémoire pour créer une timeline narrative de votre programme :
 
-[ici mettre screenshot]
+<img src="memory_tracer.png" alt="Aperçu Memory tracer" width="700">
 
 ## Contexte
 
