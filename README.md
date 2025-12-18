@@ -6,7 +6,7 @@ Un allocateur mémoire avec traçage intégré pour visualiser le flow mémoire 
 
 **Voir l'histoire de votre mémoire, pas seulement son état final.**
 
-Memory Tracer est un wrapper de `malloc` / `free` fusionne vos logs applicatifs avec le traçage mémoire pour créer une timeline narrative de votre programme :
+Memory Tracer est un wrapper de `malloc` / `free` qui fusionne vos logs applicatifs avec le traçage mémoire pour créer une timeline narrative de votre programme :
 
 <img src="memory_tracer.png" alt="Aperçu Memory tracer" width="700">
 
@@ -30,7 +30,7 @@ Vérifiez d'un coup d'œil que vos chemins d'erreur nettoient correctement la m�
 ### Léger et rapide
 Overhead minimal, pas de ralentissement.
 
-## Installation & Usage
+## Installation & Usage :
 
 **1. Copiez les fichiers dans votre projet :**
 ```bash
@@ -63,7 +63,7 @@ make
 
 Le traçage mémoire s'affichera automatiquement entrelacé avec vos logs !
 
-## Compatibilité
+## Compatibilité :
 
 **Actuellement compatible : macOS uniquement**
 
